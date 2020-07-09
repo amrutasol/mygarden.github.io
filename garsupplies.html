@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    .logo{
+        width: 50px;
+        height: 50px;
+    }
+    
+    </style>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyGaRdeN</title>
+</head>
+<body>
+
+    <nav class="navbar sticky-top navbar-expand-sm navbar-light" style="background-color:rgb(183, 244, 255);">
+               
+        <a class="navbar-brand" href="#">
+            <img class="logo" src="img/logo1.jpg" alt="">
+            <h2 class="navbar-brand mb-0">MyGaRdeN</h2>
+        </a>
+        <button class="navbar-toggler" data-target="#nav" data-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="nav">
+            <ul class="navbar-nav">
+                <li class="nav-items">
+                    <a href="index.html" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-items">
+                  <a href="garsupplies.html" class="nav-link">GARDEN SUPPLIES</a>
+                </li>
+                
+              <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                ABOUT US
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="about.html">WE</a>
+                <a class="dropdown-item" href="contact.html">CONTACT US</a>
+                <a class="dropdown-item" href="gallery.html">GALLERY</a>
+                </div>
+              </li>
+            </ul>    
+        </div>
+        
+          <button class="btn btn-success m-1" data-target="#signin" data-toggle="modal">SignUp</button>
+
+    </nav>
+
+    
+
+    <div class="modal fade" id="signin">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">SignUp</h3>
+    <button class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="form-control" required>
+                   
+                    
+                        <label for="pass">Password</label>
+                        <input type="password" id="pass" class="form-control">
+                        
+                        <button  class="btn btn-success my-3">Submit</button>
+                        <button  class="btn btn-secondary mx-3" data-dismiss="modal">Close</button>
+                
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="jumbotron jumbotron-fluid text-dark my-5" >
+      <img class="img-thumbnail my-3" src="img/gs1.jpg" alt=""> 
+        <hr>
+      <div class="container my-5">
+        <h3>Shop By Interest</h3> <hr> <br>
+        <div class="row my-3"> 
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <a href="#" class="btn btn-outline-primary"><img src="img/gswater.jpg" alt="" height="250px" width="250px"></a>
+                <br><h5 class="card-title" style="text-align: center;">WATER & IRRIGATION</h5> 
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <a href="#" class="btn btn-outline-primary"><img src="img/gspseeds.jpg" alt="" height="250px" width="250px"></a>
+                <br><h5 class="card-title" style="text-align: center;">SEEDS & PLANTS</h5> 
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <a href="#" class="btn btn-outline-primary"><img src="img/gspsupport.jpg" alt="" height="250px" width="250px"></a>
+                <br><h5 class="card-title" style="text-align: center;">PLANTS SUPPORTS</h5> 
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row my-3">
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <a href="#" class="btn btn-outline-primary"><img src="img/gspests.jpg" alt="" height="250px" width="250px"></a>
+                <br><h5 class="card-title" style="text-align: center;">PESTS & DISEASE CONTROL</h5> 
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body">
+                <a href="#" class="btn btn-outline-primary"><img src="img/gstools.jpg" alt="" height="250px" width="250px"></a>
+                <br><h5 class="card-title" style="text-align: center;">GARDEN TOOLS</h5> 
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+
+          </div>
+        </div>
+        
+        </div>
+
+
+
+
+
+
+      </div>
+
+
+
+
+
+
+
+
+
+      </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+
+    <footer class="page-footer font-small text-dark pt-4" style="background-color: rgb(180, 245, 245);">
+
+    <div class="container">
+    <hr>
+
+    <!-- Grid row -->
+    <div class="row d-flex align-items-center">
+
+      <!-- Grid column -->
+      <div class="col-md-7 col-lg-8">
+
+        <!--Copyright-->
+        <p class="text-center text-md-left">© 2020 Copyright:
+          <a href="https://mdbootstrap.com/">
+            <strong class="text-dark"> MyGaRdeN.com</strong>
+          </a>
+          All Rights Reserved.
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-5 col-lg-4 ml-lg-0">
+
+        <!-- Social buttons -->
+        <div class="text-center text-md-right">
+          <ul class="list-unstyled list-inline">
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-google-plus-g"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+</div>
+</footer>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>

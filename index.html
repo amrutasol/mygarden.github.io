@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    .logo{
+        width: 50px;
+        height: 50px;
+    }
+    
+    </style>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyGaRdeN</title>
+</head>
+<body>
+
+    <nav class="navbar sticky-top navbar-expand-sm navbar-light" style="background-color:rgb(183, 244, 255);">
+               
+        <a class="navbar-brand" href="#">
+            <img class="logo" src="img/logo1.jpg" alt="">
+            <h2 class="navbar-brand mb-0">MyGaRdeN</h2>
+        </a>
+        <button class="navbar-toggler" data-target="#nav" data-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="nav">
+            <ul class="navbar-nav">
+                <li class="nav-items">
+                    <a href="index.html" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-items">
+                  <a href="garsupplies.html" class="nav-link">GARDEN SUPPLIES</a>
+                </li>
+                
+              <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                ABOUT US
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="about.html">WE</a>
+                <a class="dropdown-item" href="contact.html">CONTACT US</a>
+                <a class="dropdown-item" href="gallery.html">GALLERY</a>
+                </div>
+              </li>
+            </ul>    
+        </div>
+        
+          <button class="btn btn-success m-1" data-target="#signin" data-toggle="modal">SignUp</button>
+
+    </nav>
+
+    
+
+    <div class="modal fade" id="signin">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">SignUp</h3>
+    <button class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="form-control" required>
+                   
+                    
+                        <label for="pass">Password</label>
+                        <input type="password" id="pass" class="form-control">
+                        
+                        <button  class="btn btn-success my-3">Submit</button>
+                        <button  class="btn btn-secondary mx-3" data-dismiss="modal">Close</button>
+                
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div id="imgcarousel" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/carou1.jpg" class="d-block w-100" alt="..." height="450px">
+            <div class="carousel-caption">
+              <h1 class="display-2">Welome To MyGaRdeN</h1>
+                <h3>Here we will provide you all the gardenery things...!</h3>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/carou2.jpg" class="d-block w-100" alt="..." height="450px">
+            <div class="carousel-caption">
+                <h3>You can buy all the needed Plants and Tools for your Gardening</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/carou3.jpg" class="d-block w-100" alt="..." height="450px">
+            <div class="carousel-caption">
+                <h3>Baskets and Pots In the Measures you need...</h3>
+                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+              </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#imgcarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#imgcarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    
+      <div class="jumbotron jumbotron-fluid m-5">
+        <div class="container">
+          <h3 class="font-weight-bold text-center text-danger">Keep Your Garden Flourishing</h3>
+          <div class="card-deck">
+          <div class="row">
+          <div class="col-md-4 my-3">
+            <div class="card">
+              <img src="img/garbed.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Raised Garden Beds</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro officiis minus doloremque corporis, perferendis qui necessitatibus assumenda reprehenderit repellat autem!</p>
+                <a href="#" class="btn btn-primary">SHOP NOW</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 my-3">
+            <div class="card">
+              <img src="img/garbarr.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Block out with Barriers</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, veniam exercitationem ab dolor ullam nemo eveniet accusantium recusandae officiis id.</p>
+                <a href="#" class="btn btn-primary">SHOP NOW</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 my-3">
+            <div class="card">
+              <img src="img/garsoilf.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Soil And Fertilizers</h5>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente tenetur tempore molestiae nesciunt omnis iure? Laudantium repellat facilis itaque minima quibusdam dolore ratione quia aliquid. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, unde animi inventore adipisci culpa in. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint qui esse nulla praesentium doloremque temporibus.</p>
+                <a href="#" class="btn btn-primary">SHOP NOW</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 my-3">
+            <div class="card">
+              <img src="img/gar1.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Decor Your Gardens</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quaerat eaque corporis ab et voluptas voluptatem. Eos, praesentium natus. Molestias est ipsam voluptate perferendis commodi ratione iste neque odit doloribus.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 my-3">
+            <div class="card">
+              <img src="img/garbasket.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Baskets For Veggies</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, minima. Officiis quisquam hic optio quas! Recusandae, temporibus rerum autem corrupti reprehenderit debitis excepturi dolorem vitae fugiat quaerat magni architecto odio illum, at repellendus quis cupiditate?</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 my-3">
+            <div class="card">
+              <img src="img/gar3.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Flower Plants</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit nihil doloribus est tempora nemo consectetur ratione autem, cumque iusto nisi debitis a nobis? Distinctio consequuntur consequatur deserunt maxime tenetur quae quam numquam deleniti, quo mollitia inventore eius illum accusantium at.</p>
+              </div>
+            </div>
+          </div>
+          </div>
+          </div>
+        </div>
+      </div>
+
+
+    <footer class="page-footer font-small text-dark pt-4" style="background-color: rgb(180, 245, 245);">
+
+    <div class="container text-center text-md-left">
+
+    <div class="row text-center text-md-left mt-3 pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">MyGaRdeN</h6>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ratione, incidunt tempora fugit sint neque distinctio corrupti officiis expedita quam.</p>
+      </div>
+      <!-- Grid column -->
+
+      <hr class="w-100 clearfix d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+        <p>
+          <a href="#!" class="text-dark">GardenTools</a>
+        </p>
+        <p>
+          <a href="#!" class="text-dark">PestsControl</a>
+        </p>
+        <p>
+          <a href="#!" class="text-dark">PlantSupports</a>
+        </p>
+        <p>
+          <a href="#!" class="text-dark">NurseryPlants</a>
+        </p>
+      </div>
+      <!-- Grid column -->
+
+      <hr class="w-100 clearfix d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">NewsLetter</h6>
+        <p>
+          Get the latest how-to and design inspiration articles plus special offers sent straight to your inbox.
+        </p>
+        <p>
+          <form action="">
+            <input type="email" id="email" class="form-control" placeholder="Email Address">
+            <button class="btn btn-secondary my-1">SignUp</button>
+          </form>
+        </p>
+      </div>
+
+      <!-- Grid column -->
+      <hr class="w-100 clearfix d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+        <p>
+          <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+        <p>
+          <i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
+        <p>
+          <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+        <p>
+          <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Footer links -->
+
+    <hr>
+
+    <!-- Grid row -->
+    <div class="row d-flex align-items-center">
+
+      <!-- Grid column -->
+      <div class="col-md-7 col-lg-8">
+
+        <!--Copyright-->
+        <p class="text-center text-md-left">© 2020 Copyright:
+          <a href="https://mdbootstrap.com/">
+            <strong class="text-dark"> MyGaRdeN.com</strong>
+          </a>
+          All Rights Reserved.
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-5 col-lg-4 ml-lg-0">
+
+        <!-- Social buttons -->
+        <div class="text-center text-md-right">
+          <ul class="list-unstyled list-inline">
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-google-plus-g"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+</footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>
